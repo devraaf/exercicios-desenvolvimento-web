@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario com php</title>
+</head>
+<body>
+    <h1>Formulário com PHP</h1>
+    <form action="processa.php" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email">
+        </div>
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" placeholder="Insira sua idade">
+        </div>
+        <div>
+            <fieldset>
+                <legend> Selecione seu gênero </legend>
+                <input type="radio" id="feminino" name="sexo" value="F">
+                <label for="feminino">F</label><br>
+                <input type="radio" id="masculino" name="sexo" value="M">
+                <label for="masculino">M</label><br>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Linguagens:</legend>
+                <input type="checkbox" id="html" name="linguagens[]" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="css" name="linguagens[]" value="css">
+                <label for="css">CSS</label><br>
+                <input type="checkbox" id="javascript" name="linguagens[]" value="javascript">
+                <label for="javascript">JavaScript</label><br>
+            </fieldset>
+        </div>
+        <div>
+            <label for="estado">Estado: </label>
+            <select name="estado" id="estado">
+                <option>Selecione seu estado</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="mensagem" id="msg"></textarea>
+            </fieldset>
+        </div>
+        <button type="submit">ENVIAR</button>
+    </form>
+</body>
+</html>

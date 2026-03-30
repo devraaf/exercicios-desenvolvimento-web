@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ECE8EE;
+}
+header{
+    background: linear-gradient(90deg, #4C06AF 0%, #320081 100%);
+    height: 150px;
+}
+header h1{
+    padding: 30px 50px;
+    color: #ECE8EE;
+    font-size: 2em;
+    font-weight: 700;
+}
+header p{
+    padding: 0 50px;
+    font-size: 1em;
+    color: #ECE8EE;
+}
+
+main{
+    flex: 1;
+}
+.exercicios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0 2px 10px 0 rgba(40, 32, 51, 0.20);
+    padding: 20px;
+    gap: 10px;
+}
+time{
+    color: #686868;
+    font-size: 1em;
+    font-weight: 500;
+}
+.atividade{
+    display: flex;
+    justify-content: space-between;
+}
+.atividade h3{
+    color: #3E0D82;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+.icone{
+    width: 40px;
+}
+.botao{
+    display: flex;
+    border-radius: 10px;
+    background: #613D81;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #320081;
+    margin-top: auto;
+}
+footer p{
+    padding: 30px;
+    text-align: center;
+}
+footer p, a{
+    color: #FFF;
+    text-decoration: none;
+}
