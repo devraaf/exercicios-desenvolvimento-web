@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 1,
+        "nome" : "Trilha: página HTML",
+        "data" : "14/03/2026",
+        "stack" : ["html", "css"],
+        "link" : "https://rafaela-campos.infinityfree.me"
+    },
+    {
+        "id" : 2,
+        "nome" : "Formulário HTML",
+        "data" : "21/03/2026",
+        "stack" : ["html"],
+        "link" : "../formularios/forms html/index.html"
+    },
+    {
+        "id" : 3,
+        "nome" : "Formulário PHP",
+        "data" : "21/03/2026",
+        "stack" : ["php"],
+        "link" : "https://rafaela-campos-formulario.infinityfree.me"
+    },
+    {
+        "id" : 4,
+        "nome" : "Layout Grid",
+        "data" : "28/03/2026",
+        "stack" : ["css"],
+        "link" : "../grid/index.html"
+    },
+    {
+        "id" : 5,
+        "nome" : "E-commerce v1",
+        "data" : "18/04/2026",
+        "stack" : ["html", "css", "js", "php"],
+        "link" : "https://salina.infinityfree.me"
+    }
+]   
