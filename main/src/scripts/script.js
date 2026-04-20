@@ -52,10 +52,10 @@ function gerarCards(exercicios, stack) {
 }
 
 function load() {
-    fetch('src/data/exercicios.json')
+    fetch('main/src/data/exercicios.json')
         .then(response => response.json())
         .then(exercicios => {
-            fetch('src/data/stack.json')
+            fetch('main/src/data/stack.json')
                 .then(res => res.json())
                 .then(stack => gerarCards(exercicios, stack))
                 .catch(() => gerarCards(exercicios, {}));
