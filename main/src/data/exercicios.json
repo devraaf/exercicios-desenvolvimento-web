@@ -18,7 +18,7 @@
         "nome" : "Formulário PHP",
         "data" : "21/03/2026",
         "stack" : ["php"],
-        "link" : "https://rafaela-campos-formulario.infinityfree.me"
+        "link" : "https://formulario-php.infinityfree.me"
     },
     {
         "id" : 4,
@@ -40,5 +40,19 @@
         "data" : "09/05/2026",
         "stack" : ["html", "css", "js"],
         "link" : "../listaTarefas/index.html"
+    },
+    {
+        "id" : 7,
+        "nome" : "Trilha: comunicação com banco de dados",
+        "data" : "23/05/2026",
+        "stack" : ["js", "php", "mysql"],
+        "link" : "https://trilha2.infinityfree.me/catalogo.html"
+    },
+    {
+        "id" : 8,
+        "nome" : "E-commerce v2",
+        "data" : "30/05/2026",
+        "stack" : ["html", "css", "js", "php", "mysql"],
+        "link" : "https://salina.infinityfree.me/menu_adm.html"
     }
 ]   
