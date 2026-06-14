@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação Web</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+            <a href="index.html"><img src="../assets/images/favicon-32x32.png" alt=""></a><strong>ProgWeb</strong>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="nav-link">Linguagens</a>
+                        <ul class="dropdown">
+                            <li><a href="html.html">HTML</a></li>
+                            <li><a href="css.html">CSS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="infos.html" class="nav-link">Mais informações</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="pagina-html">
+
+    <div class="conteudo">
+
+        <!-- INTRODUÇÃO -->
+        <section class="secao introducao">
+
+            <h1 class="titulo">O que é HTML?</h1>
+
+            <p class="texto">
+                HTML é uma <b>linguagem de marcação que define o significado e a estrutura do conteúdo da web.</b>
+                Sua sigla significa <cite>HyperText Markup Language.</cite>
+            </p>
+
+            <p class="texto">
+                "Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou de sites externos.
+            </p>
+
+            <p class="texto">
+                A HTML usa "Marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web.
+                A marcação HTML inclui "elementos" especiais, como
+            </p>
+
+            <div class="tags">
+                <a href="#html">&lthtml&gt</a>,
+                <a href="#head">&lthead&gt</a>,
+                <a href="#meta">&ltmeta&gt</a>,
+                <a href="#link">&ltlink&gt</a>,
+                <a href="#title">&lttitle&gt</a>,
+                <a href="#body">&ltbody&gt</a>,
+                <a href="#header">&ltheader&gt</a>,
+                <a href="#div">&ltdiv&gt</a>,
+                <a href="#h1">&lth1&gt</a>,
+                <a href="#p">&ltp&gt</a>,
+                <a href="#img">&ltimg&gt</a>,
+                <a href="#ul">&ltul&gt</a>,
+                <a href="#ol">&ltol&gt</a>,
+                <a href="#li">&ltli&gt</a>,
+                <a href="#nav">&ltnav&gt</a>,
+                <a href="#main">&ltmain&gt</a>,
+                <a href="#button">&ltbutton&gt</a>,
+                <a href="#footer">&ltfooter&gt</a>,
+                <a href="#br">&ltbr&gt</a>
+            </div>
+
+        </section>
+
+        <hr class="divisor">
+
+
+        <!-- ANATOMIA DO ELEMENTO -->
+        <section class="secao anatomia">
+
+            <h1 class="titulo">Anatomia de um elemento HTML</h1>
+
+            <figure class="imagem-exemplo">
+                <img src="../assets/images/exemplos/pag.png" alt="Partes de um elemento html">
+                <figcaption>Partes de um elemento HTML</figcaption>
+            </figure>
+
+            <p class="texto">
+                As partes principais de um elemento são:
+            </p>
+
+            <ol class="lista">
+                <li>Tag de abertura</li>
+                <li>Tag de fechamento</li>
+                <li>Conteúdo</li>
+                <li>Elemento completo</li>
+            </ol>
+
+            <p class="texto">Elementos também podem ter atributos:</p>
+
+            <figure class="imagem-exemplo">
+                <img src="../assets/images/exemplos/atributo.png" alt="Atributos de um elemento html">
+                <figcaption>Atributo de um elemento HTML</figcaption>
+            </figure>
+        </section>
+
+        <hr class="divisor">
+
+
+        <!-- DOCUMENTO HTML -->
+        <section class="secao documento">
+
+            <h1 class="titulo">Anatomia de um documento HTML</h1>
+
+            <p class="texto">
+                Vamos observar como os elementos individuais se combinam para formar uma página HTML completa.
+            </p>
+
+            <img class="imagem-exemplo" src="../assets/images/exemplos/pagetst.png" alt="Documento HTML">
+
+        </section>
+
+        <hr class="divisor">
+
+
+        <!-- ELEMENTOS HTML -->
+        <section class="secao elementos">
+
+            <h1 class="titulo">Elementos HTML</h1>
+
+            <div class="elemento">
+                <h2 id="html">&lthtml&gt</h2>
+                <p class="texto">Representa a raiz de um documento HTML.</p>
+                <img src="../assets/images/exemplos/exemplotaghtml.png">
+            </div>
+
+            <div class="elemento">
+                <h2 id="head">&lthead&gt</h2>
+                <p class="texto">Contém metadados do documento.</p>
+                <img src="../assets/images/exemplos/exemplo-head.png">
+            </div>
+
+            <div class="elemento">
+                <h2 id="meta">&ltmeta&gt</h2>
+                <p class="texto">Define metadados da página.</p>
+                <img src="../assets/images/exemplos/exemplometa.png">
+            </div>
+
+            <div class="elemento">
+                <h2 id="link">&ltlink&gt</h2>
+                <p class="texto">Define relação com recursos externos.</p>
+                <img src="../assets/images/exemplos/exemlink.png">
+            </div>
+            
+           <div class="elemento">
+                <h2 id="title">&lttitle&gt</h2>
+                <p class="texto">Define o título do documento, mostrado na aba do navegador.</p>
+                <img src="../assets/images/exemplos/exemtitu.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="body">&ltbody&gt</h2>
+                <p class="texto">Representa todo o conteúdo visível da página HTML.</p>
+                <img src="../assets/images/exemplos/exembody.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="header">&ltheader&gt</h2>
+                <p class="texto">Representa um cabeçalho da página ou de uma seção.</p>
+                <img src="../assets/images/exemplos/exemheader.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="div">&ltdiv&gt</h2>
+                <p class="texto">Container genérico usado para agrupar elementos.</p>
+                <img src="../assets/images/exemplos/exemdiv.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="h1">&lth1&gt</h2>
+                <p class="texto">Representa o título principal de uma seção.</p>
+                <img src="../assets/images/exemplos/exemh1.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="p">&ltp&gt</h2>
+                <p class="texto">Representa um parágrafo de texto.</p>
+                <img src="../assets/images/exemplos/exemplo paragrafo.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="img">&ltimg&gt</h2>
+                <p class="texto">Usado para inserir imagens em uma página HTML.</p>
+                <img src="../assets/images/exemplos/exemimg.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="ul">&ltul&gt</h2>
+                <p class="texto">Representa uma lista não ordenada (com marcadores).</p>
+                <img src="../assets/images/exemplos/exemul.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="ol">&ltol&gt</h2>
+                <p class="texto">Representa uma lista ordenada com numeração.</p>
+                <img src="../assets/images/exemplos/exemol.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="li">&ltli&gt</h2>
+                <p class="texto">Define um item dentro de uma lista.</p>
+                <img src="../assets/images/exemplos/exemol.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="nav">&ltnav&gt</h2>
+                <p class="texto">Representa uma área de navegação com links.</p>
+                <img src="../assets/images/exemplos/exemplo nav.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="main">&ltmain&gt</h2>
+                <p class="texto">Define o conteúdo principal da página.</p>
+                <img src="../assets/images/exemplos/main.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="button">&ltbutton&gt</h2>
+                <p class="texto">Representa um botão clicável.</p>
+                <img src="../assets/images/exemplos/exem button.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="footer">&ltfooter&gt</h2>
+                <p class="texto">Representa o rodapé da página ou de uma seção.</p>
+                <img src="../assets/images/exemplos/footer.png" alt="">
+            </div>
+
+            <div class="elemento">
+                <h2 id="br">&ltbr&gt</h2>
+                <p class="texto">Cria uma quebra de linha no texto.</p>
+                <img src="../assets/images/exemplos/br.png" alt="">
+            </div>
+    </div>
+    </main>
+
+</body>
+</html>

@@ -4,7 +4,7 @@
         "nome" : "Trilha: página HTML",
         "data" : "14/03/2026",
         "stack" : ["html", "css"],
-        "link" : "https://rafaela-campos.infinityfree.me"
+        "link" : "../trilha01/pages/index.html"
     },
     {
         "id" : 2,
